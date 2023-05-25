@@ -1,0 +1,7 @@
+# properties to register a service in service registry
+eureka:
+     instance:
+          prefer-ip-address: true
+     client:
+          service-url:
+               defaultZone: http://localhost:${server.port}/eureka
